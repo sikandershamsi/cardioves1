@@ -1,6 +1,6 @@
 
 import Hero from "../components/hero";
-import Layout from "../components/Layout/layout";
+import Layout from "../components/layout/layout";
 import SeoHead from "../components/seoHead";
 import FaqAccordion from "../components/misc/faqAccordion";
 import PatientAppFeature from "../components/patientAppFeature";

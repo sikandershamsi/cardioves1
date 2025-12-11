@@ -2,7 +2,7 @@
 import { useMemo } from 'react';
 import getBottomScrollAnimation from '../utils/getBottomScrollAnimation';
 import { motion } from "framer-motion";
-import ScrollAnimationWrapper from './Layout/ScrollAnimationWrapper';
+import ScrollAnimationWrapper from './layout/ScrollAnimationWrapper';
 import getTopScrollAnimation from '../utils/getTopScrollAnimation';
 
 export default function ContactPage() {

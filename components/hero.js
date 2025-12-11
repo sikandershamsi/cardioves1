@@ -2,7 +2,7 @@ import React, { useMemo } from "react";
 import { motion } from "framer-motion";
 import getLeftScrollAnimation from "../utils/getLeftScrollAnimation";
 import getRightScrollAnimation from "../utils/getRightScrollAnimation";
-import ScrollAnimationWrapper from "./Layout/ScrollAnimationWrapper";
+import ScrollAnimationWrapper from "./layout/ScrollAnimationWrapper";
 
 const Hero = () => {
   const leftScrollAnimation = useMemo(() => getLeftScrollAnimation(), []);

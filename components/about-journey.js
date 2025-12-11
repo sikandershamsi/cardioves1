@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 import getTopScrollAnimation from '../utils/getTopScrollAnimation';
 import { useMemo } from 'react';
 import getBottomScrollAnimation from '../utils/getBottomScrollAnimation';
-import ScrollAnimationWrapper from './Layout/ScrollAnimationWrapper';
+import ScrollAnimationWrapper from './layout/ScrollAnimationWrapper';
 import getRightScrollAnimation from '../utils/getRightScrollAnimation';
 import getLeftScrollAnimation from '../utils/getLeftScrollAnimation';
 

@@ -1,4 +1,4 @@
-import Layout from "../components/Layout/layout";
+import Layout from "../components/layout/layout";
 import AboutTop from "../components/about-top";
 import JourneySection from "../components/about-journey";
 import TeamSection from "../components/about-team";

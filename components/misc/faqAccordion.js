@@ -1,6 +1,6 @@
 import React, { useMemo, useState } from "react";
 import { FaChevronDown } from "react-icons/fa";
-import ScrollAnimationWrapper from "../Layout/ScrollAnimationWrapper";
+import ScrollAnimationWrapper from "../layout/ScrollAnimationWrapper";
 import getTopScrollAnimation from "../../utils/getTopScrollAnimation";
 import getLeftScrollAnimation from "../../utils/getLeftScrollAnimation";
 import getRightScrollAnimation from "../../utils/getRightScrollAnimation";

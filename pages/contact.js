@@ -1,4 +1,4 @@
-import Layout from "../components/Layout/layout";
+import Layout from "../components/layout/layout";
 import ContactPage from "../components/contact-top";
 import ContactSection from "../components/contact-Section";
 import SeoHead from "../components/seoHead";

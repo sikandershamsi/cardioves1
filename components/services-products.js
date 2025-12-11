@@ -1,5 +1,5 @@
 import { User, FileText, Activity, ArrowDownToLine } from "lucide-react";
-import ScrollAnimationWrapper from "./Layout/ScrollAnimationWrapper";
+import ScrollAnimationWrapper from "./layout/ScrollAnimationWrapper";
 import getTopScrollAnimation from "../utils/getTopScrollAnimation";
 import { useMemo, useState } from "react";
 import { motion } from "framer-motion";

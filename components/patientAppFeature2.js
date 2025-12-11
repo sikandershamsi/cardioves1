@@ -1,7 +1,7 @@
 import React, { useMemo } from "react";
 import { FiDownload } from "react-icons/fi";
 import getTopScrollAnimation from "../utils/getTopScrollAnimation";
-import ScrollAnimationWrapper from "./Layout/ScrollAnimationWrapper";
+import ScrollAnimationWrapper from "./layout/ScrollAnimationWrapper";
 import { motion } from "framer-motion";
 import getRightScrollAnimation from "../utils/getRightScrollAnimation";
 import getLeftScrollAnimation from "../utils/getLeftScrollAnimation";
