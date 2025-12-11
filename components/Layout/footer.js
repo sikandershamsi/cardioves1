@@ -34,10 +34,10 @@ const Footer = () => {
             <div>
               <h4 className="text-lg font-semibold text-gray-900 mb-4">Company</h4>
               <ul className="space-y-2 text-sm text-gray-700">
-                <Link href="/Services">
+                <Link href="/services">
                   <li className="hover:text-[#D4274B] cursor-pointer">Services</li>
                 </Link>
-                <Link href="/About">
+                <Link href="/about">
                   <li className="hover:text-[#D4274B] cursor-pointer">About</li>
                 </Link>
                 <li className="hover:text-[#D4274B] cursor-pointer">Team</li>
@@ -50,7 +50,7 @@ const Footer = () => {
               <h4 className="text-lg font-semibold text-gray-900 mb-4">Support</h4>
               <ul className="space-y-2 text-sm text-gray-700">
                 <li className="hover:text-[#D4274B] cursor-pointer">Help</li>
-                <Link href="/Contact">
+                <Link href="/contact">
                   <li className="hover:text-[#D4274B] cursor-pointer">Contact Us</li>
                 </Link>
               </ul>

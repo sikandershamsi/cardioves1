@@ -51,17 +51,17 @@ const Header = () => {
               </LinkScroll>
             </Link>
             
-            <Link href="/About">
+            <Link href="/about">
               <LinkScroll
                 activeClass="active"
-                href="/About"
+                href="/about"
                 duration={1000}
                 onSetActive={() => {
-                  setActiveLink("/About");
+                  setActiveLink("/about");
                 }}
                 className={
                   "px-4 py-2 mx-2 cursor-pointer animation-hover inline-block relative" +
-                  (pathname === "/About"
+                  (pathname === "/about"
                     ? " text-orange-500 animation-active "
                     : " text-black-500 hover:text-orange-500 ")
                 }
@@ -70,7 +70,7 @@ const Header = () => {
               </LinkScroll>
             </Link>
 
-            <Link href="/Services">
+            <Link href="/services">
               <LinkScroll
                 activeClass="services"
                 duration={1000}
@@ -79,7 +79,7 @@ const Header = () => {
                 }}
                 className={
                   "px-4 py-2 mx-2 cursor-pointer animation-hover inline-block relative" +
-                  (pathname === "/Services"
+                  (pathname === "/services"
                     ? " text-orange-500 animation-active "
                     : " text-black-500 hover:text-orange-500 ")
                 }
@@ -105,7 +105,7 @@ const Header = () => {
             >
               Blogs
             </LinkScroll> */}
-            <Link href="/Contact">
+            <Link href="/contact">
             <LinkScroll
               activeClass="active"
               duration={1000}
@@ -114,7 +114,7 @@ const Header = () => {
               }}
               className={
                 "px-4 py-2 mx-2 cursor-pointer animation-hover inline-block relative" +
-                (pathname === "/Contact"
+                (pathname === "/contact"
                   ? " text-orange-500 animation-active "
                   : " text-black-500 hover:text-orange-500 ")
               }
@@ -167,7 +167,7 @@ const Header = () => {
               Home
             </LinkScroll>
             </Link>
-            <Link href="/About">
+            <Link href="/about">
             <LinkScroll
               activeClass="active"
               onSetActive={() => {
@@ -175,7 +175,7 @@ const Header = () => {
               }}
               className={
                 "mx-1 sm:mx-2 px-3 sm:px-4 py-2 flex flex-col items-center text-xs border-t-2 transition-all " +
-                (pathname === "/About"
+                (pathname === "/about"
                   ? "  border-orange-500 text-orange-500"
                   : " border-transparent ")
               }
@@ -198,7 +198,7 @@ const Header = () => {
             </LinkScroll>
             </Link>
 
-            <Link href="/Services">
+            <Link href="/services">
             <LinkScroll
               activeClass="active"
               onSetActive={() => {
@@ -206,7 +206,7 @@ const Header = () => {
               }}
               className={
                 "mx-1 sm:mx-2 px-3 sm:px-4 py-2 flex flex-col items-center text-xs border-t-2 transition-all " +
-                (pathname === "/Services"
+                (pathname === "/services"
                   ? "  border-orange-500 text-orange-500"
                   : " border-transparent ")
               }
@@ -228,7 +228,7 @@ const Header = () => {
               Services
             </LinkScroll>
             </Link>
-            <Link href="/Contact">
+            <Link href="/contact">
             <LinkScroll
               activeClass="active"
               onSetActive={() => {
@@ -236,7 +236,7 @@ const Header = () => {
               }}
               className={
                 "mx-1 sm:mx-2 px-3 sm:px-4 py-2 flex flex-col items-center text-xs border-t-2 transition-all " +
-                (pathname === "/Contact"
+                (pathname === "/contact"
                   ? "  border-orange-500 text-orange-500"
                   : " border-transparent ")
               }

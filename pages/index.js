@@ -1,11 +1,12 @@
-import Feature from "../components/Feature";
-import Hero from "../components/Hero";
-import Layout from "../components/Layout/Layout";
-import SeoHead from "../components/SeoHead";
-import FaqAccordion from "../components/misc/FaqAccordion";
-import PatientAppFeature from "../components/PatientAppFeature";
-import PatientAppFeature2 from "../components/PatientAppFeature2";
-import PatientAppFeature3 from "../components/PatientAppFeature3";
+
+import Hero from "../components/hero";
+import Layout from "../components/Layout/layout";
+import SeoHead from "../components/seoHead";
+import FaqAccordion from "../components/misc/faqAccordion";
+import PatientAppFeature from "../components/patientAppFeature";
+import PatientAppFeature2 from "../components/patientAppFeature2";
+import PatientAppFeature3 from "../components/patientAppFeature3";
+import Feature from "../components/feature";
 
 export default function Home() {
   return (

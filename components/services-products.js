@@ -137,7 +137,7 @@ export default function ProductSection() {
             <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-[#ffffff] leading-tight mb-8">
               Contact us today and let us know what you need
             </h2>
-            <Link href="/Contact" >
+            <Link href="/contact" >
             <button className="bg-[#ffffff] text-black hover:bg-gray-100 font-medium text-base px-6 py-3 h-auto rounded-xl">
               Contact Us
             </button>

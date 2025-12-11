@@ -1,8 +1,8 @@
 import React, { useMemo }  from "react";
-import Footer from "./Footer";
-import Header from "./Header";
+import Footer from "./footer";
+import Header from "./header";
 import getLeftScrollAnimation from "../../utils/getLeftScrollAnimation";
-import ScrollAnimationWrapper from "../Layout/ScrollAnimationWrapper";
+import ScrollAnimationWrapper from "./ScrollAnimationWrapper";
 import {motion} from "framer-motion";
 
 
