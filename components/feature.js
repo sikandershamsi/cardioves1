@@ -7,6 +7,7 @@ import getRightScrollAnimation from "../utils/getRightScrollAnimation";
 import getLeftScrollAnimation from "../utils/getLeftScrollAnimation";
 import getBottomScrollAnimation from "../utils/getBottomScrollAnimation";
 
+
 const features = [
   {
     icon: "/icon7.png",
