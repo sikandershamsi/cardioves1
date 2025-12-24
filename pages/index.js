@@ -34,7 +34,7 @@ export default function Home() {
               variants={topScrollAnimation}
               className="text-4xl font-bold mb-4"
             >
-              News and Blogs
+              News And Blogs
             </motion.h2>
             </div>
           </ScrollAnimationWrapper>
